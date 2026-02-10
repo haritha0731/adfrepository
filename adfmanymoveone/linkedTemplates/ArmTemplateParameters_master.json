@@ -1,0 +1,279 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfmanymoveone"
+		},
+		"ADLS_CSV_MULTIFILELOAD_accountKey": {
+			"value": ""
+		},
+		"ADLS_MULTIFILELOADCSVDEST_accountKey": {
+			"value": ""
+		},
+		"ADLS_SINK_accountKey": {
+			"value": ""
+		},
+		"ADLS_SOURCE_accountKey": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage10_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage11_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage12_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage13_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage14_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage15_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage16_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage17_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage18_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage19_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage20_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage7_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage8_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage9_accountKey": {
+			"value": ""
+		},
+		"LS4_accountKey": {
+			"value": ""
+		},
+		"LSCSV_accountKey": {
+			"value": ""
+		},
+		"LS_DELETECSV_accountKey": {
+			"value": ""
+		},
+		"LS_DLTCSV_accountKey": {
+			"value": ""
+		},
+		"LS_PARQ_accountKey": {
+			"value": ""
+		},
+		"LS_PARQ1_accountKey": {
+			"value": ""
+		},
+		"LS_SET1_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer3_password": {
+			"value": ""
+		},
+		"SqlServer4_password": {
+			"value": ""
+		},
+		"SqlServer5_password": {
+			"value": ""
+		},
+		"SqlServer6_password": {
+			"value": ""
+		},
+		"ADLS_CSV_MULTIFILELOAD_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"ADLS_MULTIFILELOADCSVDEST_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"ADLS_SINK_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"ADLS_SOURCE_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage10_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage11_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage12_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage13_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage14_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage15_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage16_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage17_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage18_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage19_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage20_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage8_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage9_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"LS4_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"LSCSV_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"LS_DELETECSV_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"LS_DLTCSV_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"LS_PARQ_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"LS_PARQ1_properties_typeProperties_url": {
+			"value": "https://adlsdestinationsink.dfs.core.windows.net/"
+		},
+		"LS_SET1_properties_typeProperties_url": {
+			"value": "https://adlsmovemanytoone.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "LAPTOP-QSR9QDMH\\SQLEXPRESS01"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "LAPTOP-QSR9QDMH\\SQLEXPRESS01"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer3_properties_typeProperties_server": {
+			"value": "LAPTOP-QSR9QDMH\\SQLEXPRESS01"
+		},
+		"SqlServer3_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer3_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer4_properties_typeProperties_server": {
+			"value": "LAPTOP-QSR9QDMH\\SQLEXPRESS01"
+		},
+		"SqlServer4_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer4_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer5_properties_typeProperties_server": {
+			"value": "LAPTOP-QSR9QDMH\\SQLEXPRESS01"
+		},
+		"SqlServer5_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer5_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer6_properties_typeProperties_server": {
+			"value": "LAPTOP-QSR9QDMH\\SQLEXPRESS01"
+		},
+		"SqlServer6_properties_typeProperties_database": {
+			"value": "AdventureWorks2022"
+		},
+		"SqlServer6_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/36740245-93e7-4c9d-ba2a-e6f875d7775a/resourceGroups/rg1_adf_many/providers/Microsoft.Storage/storageAccounts/adlsmovemanytoone"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
