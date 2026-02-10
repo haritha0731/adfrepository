@@ -1,0 +1,20 @@
+{
+	"name": "DS_SINK",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_SINK",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "sinkcsv"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
